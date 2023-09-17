@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css meme slider</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     
-    <section class="slider">
+    <section class="main">
         <div class="container">
             <h1 class="title">Meme Slider
 
@@ -20,16 +21,63 @@
                 </div>
             </h1>
 
-            <div class="wrapper">
-                
-                <input type="radio" id="slide-1" name="slide" checked/>
-                <label for="slide-1">Email</label>
-            
-                <input type="radio" id="slide-2" name="slide"/>
-                <label for="slide-2">Phone</label>
-            
-                <input type="radio" id="slide-3" name="slide"/>
-                <label for="slide-3">Mail</label>
+            <div class="slider">
+                <input class="slider__input" type="radio" name="button" id="slide-1" checked>
+                <input class="slider__input" type="radio" name="button" id="slide-2">
+                <input class="slider__input" type="radio" name="button" id="slide-3">
+                <input class="slider__input" type="radio" name="button" id="slide-4">
+                <input class="slider__input" type="radio" name="button" id="slide-5">
+                <input class="slider__input" type="radio" name="button" id="slide-6">
+                <input class="slider__input" type="radio" name="button" id="slide-7">
+                <input class="slider__input" type="radio" name="button" id="slide-8">
+
+                <div class="slider__wrapper">
+                    <div class="slide__wrapper">
+                        <div class="slide slide-1">
+                            <img src="./img/slide-1.jpg" alt="slide-1">
+                            <span class="descriptopn">meme about three tabs in google chrome</span>
+                        </div>
+                        <div class="slide slide-2">
+                            <img src="./img/slide-2.jpg" alt="slide-2">
+                            <div class="descriptopn">meme about a serial killer programmer</div>
+                        </div>
+                        <div class="slide slide-3">
+                            <img src="./img/slide-3.jpg" alt="slide-3">
+                            <span class="descriptopn">cow meme</span>
+                        </div>
+                        <div class="slide slide-4">
+                            <img src="./img/slide-4.jpg" alt="slide-4">
+                            <span class="descriptopn">cock corner meme</span>
+                        </div>
+                        <div class="slide slide-5">
+                            <img src="./img/slide-5.jpg" alt="slide-5">
+                            <span class="descriptopn">meme about skins in chess</span>
+                        </div>
+                        <div class="slide slide-6">
+                            <img src="./img/slide-6.jpg" alt="slide-6">
+                            <span class="descriptopn">meme about frontenders</span>
+                        </div>
+                        <div class="slide slide-7">
+                            <img src="./img/slide-7.jpg" alt="slide-7">
+                            <span class="descriptopn">meme about linux root</span>
+                        </div>
+                        <div class="slide slide-8">
+                            <img src="./img/slide-8.jpg" alt="slide-8">
+                            <span class="descriptopn">meme about bugs</span>
+                        </div>
+                    </div>
+    
+                    <div class="pagination">
+                        <label class="slider__label" for="slide-1"><span class="pagination__btn"></span></label>
+                        <label class="slider__label" for="slide-2"><span class="pagination__btn"></span></label>
+                        <label class="slider__label" for="slide-3"><span class="pagination__btn"></span></label>
+                        <label class="slider__label" for="slide-4"><span class="pagination__btn"></span></label>
+                        <label class="slider__label" for="slide-5"><span class="pagination__btn"></span></label>
+                        <label class="slider__label" for="slide-6"><span class="pagination__btn"></span></label>
+                        <label class="slider__label" for="slide-7"><span class="pagination__btn"></span></label>
+                        <label class="slider__label" for="slide-8"><span class="pagination__btn"></span></label>
+                    </div>
+                </div>
     
             </div>
 
