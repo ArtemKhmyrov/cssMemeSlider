@@ -235,6 +235,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .slider__input {
@@ -294,7 +295,7 @@ h1 {
 }
 
 .pagination{
-    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     background: var(--bg);
     justify-content: center;
@@ -324,7 +325,7 @@ h1 {
 #slide-5:checked ~ .slider__wrapper .slider__label:nth-of-type(5) span,
 #slide-6:checked ~ .slider__wrapper .slider__label:nth-of-type(6) span,
 #slide-7:checked ~ .slider__wrapper .slider__label:nth-of-type(7) span,
-#slide-8:checked ~ .slider__wrapper .slider__label:nth-of-type(8) span{
+#slide-8:checked ~  .slider__label:nth-of-type(8) span{
     background: transparent;
     border: .2rem solid var(--clr-1);
 }
